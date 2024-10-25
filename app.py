@@ -112,7 +112,7 @@ def get_bin_collection():
                                     today = datetime.now().date()
                                     
                                     # Calculate the difference in days
-                                    days_until_next_collection = (next_collection_date.date() - today).days + 1
+                                    days_until_next_collection = (next_collection_date.date() - today).days
 
                                     # Structure the data as a dictionary
                                     bin_data = {
